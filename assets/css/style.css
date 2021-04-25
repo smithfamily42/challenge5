@@ -4,6 +4,11 @@ body {
   line-height: 1;
 }
 
+#currentDay {
+  font-size: 200%;
+  font-weight: bolder;
+}
+
 textarea{
   background: transparent;
   border: none;
@@ -39,7 +44,7 @@ textarea{
 .hour {
   background-color: #ffffff;
   color: #000000;
-  border-top: 1px dashed #000000;
+  border-right: 1px dashed #000000;
   padding: 0 .75em;
 }
 
@@ -67,6 +72,6 @@ textarea{
 }
 
 .saveBtn i:hover {
-  font-size: 20px;
+  font-size: 2em;
   transition: all .3s ease-in-out;
 }
