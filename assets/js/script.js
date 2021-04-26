@@ -30,7 +30,7 @@ if (loadTasks) {
 }
 
 //create the task element
-workTasks.map((block, index) => {
+workTasks.forEach(function(block, index) {
     var hourLabel = block.time;
     var blockColor = colorRow(hourLabel);
     var row =
